@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './NavBar'; 
+import Navbar from './NavBar';
 
 const App = () => {
   const links = [
@@ -14,11 +14,11 @@ const App = () => {
       <Navbar 
         title="Photo Vibe" 
         links={links} 
-        containerClass="bg-gray-800" // Klasat për kontejnerin e navbar-it
-        titleClass="text-white" // Klasat për titullin
-        linkClass="text-white hover:bg-green-500" // Klasat për lidhjet
+        containerClass="bg-gray-800" 
+        titleClass="text-white"
+        linkClass="text-white hover:bg-green-500" 
       />
-      {/* Përmbajtja e tjera e aplikacionit */}
+      
     </div>
   );
 };
