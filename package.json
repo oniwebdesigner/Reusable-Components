@@ -1,0 +1,35 @@
+{
+  "name": "oni-library",
+  "version": "1.2.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "tsc --project tsconfig.build.json && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "next": "14.2.15",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "dist/page.js",
+  "types": "dist/page.d.ts"
+}
