@@ -43,3 +43,5 @@ export const useHoverAnimation = ({
 
   return { handleMouseEnter, handleMouseLeave }; // Return handlers for use in components
 };
+
+export default useHoverAnimation;

@@ -1,7 +1,7 @@
 import React from 'react';
 //import Background from 'path/to/your/background/image'; // Sigurohu që e ke importuar saktë
 
-interface HeroSectionProps {
+type HeroSectionProps = {
   title: string;
   description: string;
   link: string;

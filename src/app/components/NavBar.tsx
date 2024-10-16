@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 // Define the type of props that the Navbar component will accept
-interface NavbarProps {
+type NavbarProps = {
   title: string; // The title of the navbar
   links: Array<{ href: string; label: string }>; // An array of links with href and label properties
   containerClass?: string; // Optional classes for the container

@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface ButtonProps {
+type ButtonProps = {
   href: string;
   children: React.ReactNode;
   bgColor?: string; 
